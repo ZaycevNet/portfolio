@@ -2,33 +2,45 @@ import {tWorksItem} from "./item";
 
 export const WorksSource: tWorksItem[] = [
     {
-        title: 'some title',
+        title: 'Portfolio',
         description: 'some desc',
-        img: 'https://images.unsplash.com/photo-1543540813-4cf4bf79f8d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'
+        source: 'https://github.com/ZaycevNet/portfolio',
+        preview: 'https://zaycev.dev',
+        img: '/assets/Webp.net-resizeimage.png'
     },
     {
-        title: 'some title',
+        title: 'next-decorators',
         description: 'some desc',
-        img: 'https://images.unsplash.com/photo-1543540813-4cf4bf79f8d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'
+        source: 'https://github.com/ZaycevNet/next-decorators',
+        preview: 'https://www.npmjs.com/package/@za-utils/next-decorators',
+        img: '/assets/Webp.net-resize2.png'
     },
     {
-        title: 'some title',
+        title: 'WebSocket RPC e2e',
         description: 'some desc',
-        img: 'https://images.unsplash.com/photo-1543540813-4cf4bf79f8d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'
+        source: 'https://github.com/ZaycevNet/ws-rpc-e2e',
+        preview: '',
+        img: '/assets/Webp.net-resize3.png'
     },
     {
-        title: 'some title',
+        title: 'React Native Todos',
         description: 'some desc',
-        img: 'https://images.unsplash.com/photo-1543540813-4cf4bf79f8d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'
+        source: 'https://github.com/ZaycevNet/todos-app-react-native',
+        preview: '',
+        img: '/assets/Webp.net-resize4.png'
     },
     {
-        title: 'some title',
+        title: 'React Todos',
         description: 'some desc',
-        img: 'https://images.unsplash.com/photo-1543540813-4cf4bf79f8d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'
+        source: 'https://github.com/ZaycevNet/someApp',
+        preview: '',
+        img: '/assets/Webp.net-resize5.png'
     },
     {
-        title: 'some title',
+        title: 'Kassir.Pro',
         description: 'some desc',
-        img: 'https://images.unsplash.com/photo-1543540813-4cf4bf79f8d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'
+        source: '',
+        preview: 'https://kassir.pro',
+        img: '/assets/Webp.net-resize6.png'
     },
 ];

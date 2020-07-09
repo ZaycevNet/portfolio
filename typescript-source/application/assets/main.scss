@@ -549,6 +549,11 @@ body {
 
                     background-color: $dark-theme-color;
                   }
+
+                  &.disabled {
+                    pointer-events: none;
+                    opacity: .5;
+                  }
                 }
               }
             }
