@@ -10,7 +10,7 @@
       "build:ts": "rm -R ./src && tsc --project tsc.tsconfig.json && cp -R public ./src/ && cp -R ./typescript-source/application/assets ./src/application",
       "build:next": "rm -r -f ./dist && next build",
       "test": "jest",
-      "start": "npm start:prod",
+      "start": "npm run start:prod",
       "typeorm": "./node_modules/.bin/ts-node ./node_modules/typeorm/cli -f ./ormconfig.json"
    },
    "author": "Alex Zaycev",
