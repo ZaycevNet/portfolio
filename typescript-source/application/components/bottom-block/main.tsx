@@ -5,6 +5,7 @@ import {BottomContainer} from "./container";
 import {BottomCopyright} from "./copyright";
 import {BottomRequest} from "./request";
 import {BottomRequestNeighbour} from "./request-neighbour";
+import {BottomMetrica} from "./metrica";
 
 export const BottomMain = () => {
     return <Layout className={'bottom-block bg-primary'}>
@@ -14,5 +15,6 @@ export const BottomMain = () => {
             <BottomRequest/>
         </BottomContainer>
         <BottomCopyright/>
+        <BottomMetrica/>
     </Layout>
 };
