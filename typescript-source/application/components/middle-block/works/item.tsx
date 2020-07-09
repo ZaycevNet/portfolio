@@ -24,12 +24,12 @@ export const WorksItem: React.FC<tWorksItem> = (props) => {
                 <h3 className="title">{props.title}</h3>
                 <div className="links">
                     <div className="block">
-                        <a target={'_blank'} className={'link' + props.source ? '' : ' disabled'} href={props.source ? props.source : '#'} title="View source">
+                        <a target={'_blank'} className={('link' + props.source ? '' : ' disabled')} href={props.source ? props.source : '#'} title="View source">
                             <i className="material-icons">link</i>
                         </a>
                     </div>
                     <div className="block">
-                        <a target={'_blank'} className={'link' + props.preview ? '' : ' disabled'} href={props.preview ? props.preview : '#'} title="View preview">
+                        <a target={'_blank'} className={('link' + props.preview ? '' : ' disabled')} href={props.preview ? props.preview : '#'} title="View preview">
                             <i className="material-icons">remove_red_eye</i>
                         </a>
                     </div>

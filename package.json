@@ -10,10 +10,8 @@
       "build:ts": "rm -R ./src && tsc --project tsc.tsconfig.json && cp -R public ./src/ && cp -R ./typescript-source/application/assets ./src/application",
       "build:next": "rm -r -f ./dist && next build",
       "test": "jest",
-      "start": "ts-node typescript-source/server/db/index.ts",
-      "typeorm": "./node_modules/.bin/ts-node ./node_modules/typeorm/cli -f ./ormconfig.json",
-      "command:create-admin": "./node_modules/.bin/ts-node ./commands/create-admin.ts",
-      "command:create-content": "./node_modules/.bin/ts-node ./commands/create-content.ts"
+      "start": "npm start:prod",
+      "typeorm": "./node_modules/.bin/ts-node ./node_modules/typeorm/cli -f ./ormconfig.json"
    },
    "author": "Alex Zaycev",
    "license": "ISC",
