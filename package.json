@@ -7,8 +7,8 @@
       "start:dev": "next",
       "start:prod": "next start",
       "build": "npm run build:ts && npm run build:next",
-      "build:ts": "rm -R ./src && tsc --project tsc.tsconfig.json && cp -R public ./src/ && cp -R ./typescript-source/application/assets ./src/application",
-      "build:next": "rm -r -f ./dist && next build",
+      "build:ts": "rm -Rf ./src && tsc --project tsc.tsconfig.json && cp -R public ./src/ && cp -R ./typescript-source/application/assets ./src/application",
+      "build:next": "rm -rf ./dist && next build",
       "test": "jest",
       "start": "npm run start:prod",
       "typeorm": "./node_modules/.bin/ts-node ./node_modules/typeorm/cli -f ./ormconfig.json"
